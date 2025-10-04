@@ -81,4 +81,4 @@ resetbtn.addEventListener("click", () => {
 });
 
 resetbtn.addEventListener("click", resetgame);
-newgamebtn.addEventListener("click", resetgame);
+newgamebtn.addEventListener("click", newgame);

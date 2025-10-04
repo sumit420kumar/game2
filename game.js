@@ -21,6 +21,11 @@ const resetgame = () => {
     enableboxes();
     winnercontainer.classList.add("hide");
 }
+const newgame = () => {
+    turnO = true;
+    enableboxes();
+    winnercontainer.classList.remove("hide");
+}
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
